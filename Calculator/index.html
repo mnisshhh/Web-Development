@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form>
+      First Number: <input type="number" id="first_number">
+      Second Number: <input type="number" id="second_number">
+      <hr>
+      <h2>What function you want to perform:</h2>
+      <input type="button" onclick="addition()" value="Plus +">
+      <input type="button" onclick="sub()" value="Minus -"><br>
+      <input type="button" onclick="multiply()" value="Multiply x">
+      <input type="button" onclick="divide()" value="Divide /"><br>
+      <input type="button" onclick="sqrt()" value="Square Root">
+      <input type="button" onclick="pow()" value="power"><br>
+      <input type="button" onclick="percentage()" value="%">
+    </form>
+    <p>The result is: <br>
+<span id="result"></span>
+    </p>
+</body>
+</html>
